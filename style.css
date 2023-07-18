@@ -1,0 +1,101 @@
+@import url("https://fonts.googleapis.com/css2?family=Lato&family=Poppins:wght@500&family=Work+Sans:wght@600&display=swap");
+
+* {
+  padding: 0px;
+  margin: 0px;
+  font-family: "Lato", sans-serif;
+  font-family: "Poppins", sans-serif;
+  font-family: "Work Sans", sans-serif;
+}
+.head-section {
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  padding-top: 4em;
+}
+.navv a {
+  text-decoration: none;
+  margin: 2em;
+  color: #3a3a3a;
+  font-size: 1rem;
+  font-weight: 600;
+}
+.head-section h1 {
+  font-size: 1.25rem;
+}
+.head-section2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  margin-top: 9em;
+}
+.div2 {
+  background-image: url("./images/Circle\ design.svg");
+}
+.div1 > h1 {
+  font-size: 2.5rem;
+  padding-bottom: 1em;
+}
+.btn {
+  padding: 0.7em 1.5em;
+  border-radius: 41px;
+  background: #e02c6d;
+  margin-top: 1.5em;
+  border: none;
+  color: white;
+  font-weight: 700;
+}
+.sponsors {
+  margin-top: 8em;
+  display: flex;
+  gap: 3.75em;
+  justify-content: center;
+  align-items: center;
+}
+/* .
+.
+.
+.
+.
+responsive
+*/
+@media screen and (max-width: 576px) {
+  .head-section {
+    flex-direction: column;
+  }
+  .head-section h1 {
+    font-size: 2em;
+    padding-bottom: 1em;
+  }
+  .navv a {
+    margin: auto;
+    font-size: medium;
+  }
+  .head-section2 {
+    flex-direction: column-reverse;
+    margin-top: 2em;
+  }
+  .div2 img {
+    width: 12rem;
+    height: 11rem;
+  }
+  .div1 h1 {
+    text-align: center;
+    padding-top: 1em;
+  }
+  .div1 p {
+    text-align: center;
+  }
+  .button {
+    text-align: center;
+  }
+  .sponsors img {
+    width: 2.2rem;
+    height: 1.2rem;
+  }
+  .sponsors {
+    display: grid;
+    grid-template-columns: repeat(4, 1fr);
+    align-content: center;
+  }
+}
