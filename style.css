@@ -6,6 +6,7 @@
   font-family: "Lato", sans-serif;
   font-family: "Poppins", sans-serif;
   font-family: "Work Sans", sans-serif;
+  /* border: 1px solid red; */
 }
 .head-section {
   display: flex;
@@ -28,6 +29,7 @@
   justify-content: space-evenly;
   align-items: center;
   margin-top: 9em;
+  margin-bottom: 8em;
 }
 .div2 {
   background-image: url("./images/Circle\ design.svg");
@@ -46,11 +48,159 @@
   font-weight: 700;
 }
 .sponsors {
-  margin-top: 8em;
   display: flex;
-  gap: 3.75em;
+  gap: 4em;
   justify-content: center;
   align-items: center;
+}
+.first-part {
+  width: 98vw;
+  padding-bottom: 5em;
+}
+.text {
+  margin: auto;
+  width: 70vw;
+  background-color: white;
+}
+.main-section-pic {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  margin-bottom: 1.8em;
+  padding: 0.8em;
+}
+.main-section-pic2 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  margin-bottom: 1.8em;
+  padding: 0.8em;
+}
+.main-section-pic3 {
+  display: flex;
+  justify-content: space-evenly;
+  align-items: center;
+  box-shadow: 0px 0px 40px 0px rgba(0, 0, 0, 0.15);
+  border-radius: 5px;
+  padding: 0.8em;
+}
+.popular {
+  text-align: center;
+  padding-bottom: 4em;
+  padding-top: 2em;
+}
+.text img {
+  width: 18.75rem;
+  height: 16rem;
+}
+.seemore {
+  text-align: end;
+  color: rgba(224, 44, 109, 0.87);
+  font-weight: 700;
+  font-size: 1rem;
+  padding-top: 3.2em;
+}
+.main-section-pic img {
+  padding-bottom: 2em;
+}
+.main-section-pic h1 {
+  font-weight: 500;
+  font-size: 2em;
+}
+.main-section-pic h2 {
+  font-weight: 400;
+  font-size: 1.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.main-section-pic p {
+  font-weight: 700;
+  font-style: 1em;
+  color: #3a3a3a;
+}
+.main-section-pic2 img {
+  padding-bottom: 2em;
+}
+.main-section-pic2 h1 {
+  font-weight: 500;
+  font-size: 2em;
+}
+.main-section-pic2 h2 {
+  font-weight: 400;
+  font-size: 1.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.main-section-pic2 p {
+  font-weight: 700;
+  font-style: 1em;
+  color: #3a3a3a;
+}
+.main-section-pic3 img {
+  padding-bottom: 2em;
+}
+.main-section-pic3 h1 {
+  font-weight: 500;
+  font-size: 2em;
+}
+.main-section-pic3 h2 {
+  font-weight: 400;
+  font-size: 1.5em;
+  padding-top: 0.5em;
+  padding-bottom: 0.5em;
+}
+.main-section-pic3 p {
+  font-weight: 700;
+  font-style: 1em;
+  color: #3a3a3a;
+}
+.footer1 {
+  padding-top: 9rem;
+  width: 80vw;
+  margin: auto;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  margin-bottom: 2em;
+}
+.ftr1-img img {
+  width: 25.25rem;
+  height: 17rem;
+}
+.ftr1-text h1 {
+  font-size: 2.1rem;
+  padding-bottom: 0.4em;
+}
+.ftr1-text p {
+  font-size: 1rem;
+  padding-bottom: 0.8em;
+  color: #3a3a3a;
+}
+.btn2 {
+  padding: 0.7em 1.5em;
+  border: none;
+  background-color: #e02c6d;
+  color: white;
+}
+.ftr2 p {
+  font-size: 1rem;
+  font-weight: 700;
+  color: #d9dbe1;
+}
+.footer2 {
+  display: flex;
+  width: 98vw;
+  height: 30vh;
+  background-color: #0a0826;
+  color: white;
+  margin: auto;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
 }
 /* .
 .
@@ -90,12 +240,48 @@ responsive
     text-align: center;
   }
   .sponsors img {
-    width: 2.2rem;
+    width: 2.12rem;
     height: 1.2rem;
   }
   .sponsors {
+    width: 99vw;
+    margin-top: 1em;
     display: grid;
     grid-template-columns: repeat(4, 1fr);
-    align-content: center;
+  }
+  .main-section-pic {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-section-pic2 {
+    display: flex;
+    flex-direction: column;
+  }
+  .main-section-pic3 {
+    display: flex;
+    flex-direction: column;
+  }
+  .footer1 {
+    flex-direction: column-reverse;
+  }
+  .footer1 h1 {
+    text-align: center;
+  }
+  .footer1 p {
+    text-align: center;
+  }
+  .btn-btn {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
+  .ftr1-img img {
+    margin-top: 1em;
+  }
+  .ftr2 h1 {
+    font-size: 1.5rem;
+  }
+  .ftr2 p {
+    font-size: 1rem;
   }
 }
